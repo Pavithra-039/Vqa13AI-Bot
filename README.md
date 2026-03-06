@@ -15,6 +15,4 @@ The system uses:
 3. ViLT model processes both image + text.
 4. System returns the most likely answer.
 
-## Run the Project
-<li>python app.py</li>
-<li>http://127.0.0.1:5000/</li>
+
