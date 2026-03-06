@@ -1,9 +1,7 @@
-# Visual Question Answering (VQA) Project
-
+# Visual Question Answering AI Bot-VQA
 This project is an AI-powered Visual Question Answering (VQA) system that allows users to upload an image and ask a question about it.
 
 The system uses:
-
 - Python
 - Flask
 - PyTorch
@@ -11,7 +9,7 @@ The system uses:
 - ViLT (Vision-and-Language Transformer)
 - HTML/CSS
 
-## How it Works
+## It Works
 1. User uploads an image.
 2. User types a question.
 3. ViLT model processes both image + text.
