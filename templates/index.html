@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VQA Project</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Visual Question Answering</h1>
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required><br>
+        <input type="text" name="question" placeholder="Ask a question..." required><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if image_data %}
+    <h3>Uploaded Image:</h3>
+    <img src="data:image/jpeg;base64,{{ image_data }}" width="300">
+
+    <h3>Question: {{ question }}</h3>
+    <h2>Answer: {{ answer }}</h2>
+    {% endif %}
+</div>
+
+</body>
+</html>
