@@ -5,6 +5,7 @@ The system uses:
 - HuggingFace Transformers
 - ViLT (Vision-and-Language Transformer)
 - HTML/CSS
+
 Live Demo https://vqa13ai-bot.onrender.com
 
 
