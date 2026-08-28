@@ -1,5 +1,4 @@
 flask
-torch
-transformers
 Pillow
 gunicorn
+requests
